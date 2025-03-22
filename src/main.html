@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="w-[220px] h-[350px] absolute -z-10 top-5 left-5/12 bg-purple-200 blur-3xl"></div>
+    <div class="w-[220px] h-[350px] absolute -z-10 top-52 left-3/12 bg-pink-200 blur-3xl"></div>
+    <div class="w-[320px] h-[250px] absolute -z-10 top-40 left-0/12 bg-pink-200 blur-3xl"></div>
+    <div class=" flex justify-end fixed top-0 left-0 w-full backdrop-blur-md dark:bg-black dark:text-white"> 
+        <div class="md:w-[70%] py-5 pr-10  flex justify-between gap-y-7 flex-wrap">
+            <ul class="flex gap-4 md:gap-7 font-semibold m-auto ">
+                <li>
+                    <a class=" styleLink transitionTime" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="styleLink transitionTime" href="/">Features</a>
+                </li>
+                <li>
+                    <a class="styleLink transitionTime" href="/">Marketplace</a>
+                </li>
+                <li>
+                    <a class="styleLink transitionTime" href="/">Company</a>
+                </li>
+            </ul>
+            <div id="cotMode" class="m-auto flex gap-5 items-center">  
+                <i id="btnDark" class=" fa-solid fa-moon text-2xl cursor-pointer "></i>              
+                <a class="font-semibold bg-purple-700 py-2 px-4 rounded-xl text-white border-2 border-purple-700 hover:bg-white hover:text-purple-700 transitionTime " href="./login.html">Login <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <section class="mt-20 min-h-[90vh] flex justify-center items-center dark:bg-black dark:text-white ">
+        <div class="m-auto max-w-[550px] text-center">
+            <p class="text-slate-600 dark:text-slate-300 rounded-2xl m-auto py-1 px-2 border border-slate-600 mb-7 w-fit text-sm">Announing our next round of funning  <a href="#" class="text-purple-600 font-semibold">ReadMore <i class="fa-solid fa-arrow-right"></i></a></p>
+            <h1 class="text-6xl font-bold ">Date to enrich your online business</h1>
+            <p class="styleParagraph ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iure, numquam distinctio deserunt sequi culpa.</p>
+            <div class="mt-16">
+                <a href="#" class="stylePremirayBtn transitionTime mr-3">Get Start</a>
+                <a href="#" class="styleSecondaryBtn transitionTime">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="min-h-[90vh] flex justify-center dark:bg-black dark:text-white relative">
+        <div class="w-[220px] h-[350px] absolute -z-10 top-44 right-32 bg-pink-200 blur-3xl"></div>
+        <div class=" w-[85%] text-center ">
+            <p class="text-blue-800 max-w-[750px] font-medium m-auto">Deloy Faster</p>
+            <h2 class="styleTextHeader mt-3 mb-5">Everything you need to deploy your app</h2>
+            <p class="styleParagraph max-w-[600px] m-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi natus minus cupiditate, reprehenderit est itaque quidem quo harum rerum adipisci!</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 flex-wrap my-16">
+                <div class="box">
+                    <div class="boxIcon">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <div class="text-left">
+                        <h3 class="boxTitle ">Push to deploy</h3>
+                        <p class="styleParagraph w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, repellendus veritatis? Illum, explicabo praesentium ea, dolorum omnis corporis veniam aperiam repellat molestiae quidem eius magnam.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxIcon">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="text-left">
+                        <h3 class="boxTitle ">SSL Certificates</h3>
+                        <p class="styleParagraph w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, repellendus veritatis? Illum, explicabo praesentium ea, dolorum omnis corporis veniam aperiam repellat molestiae quidem eius magnam.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxIcon">
+                        <i class="fa-solid fa-repeat"></i>
+                    </div>
+                    <div class="text-left">
+                        <h3 class="boxTitle ">Simple Queues</h3>
+                        <p class="styleParagraph w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, repellendus veritatis? Illum, explicabo praesentium ea, dolorum omnis corporis veniam aperiam repellat molestiae quidem eius magnam.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="boxIcon">
+                        <i class="fa-solid fa-fingerprint"></i>
+                    </div>
+                    <div class="text-left ">
+                        <h3 class="boxTitle ">Advanced Security</h3>
+                        <p class="styleParagraph w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, repellendus veritatis? Illum, explicabo praesentium ea, dolorum omnis corporis veniam aperiam repellat molestiae quidem eius magnam.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+    </section>
+    <section class="min-h-[60vh]  py-10 text-center dark:bg-black dark:text-white relative">
+        <div class="w-[220px] h-[350px] absolute -z-10 top-5 left-10 bg-purple-200 blur-3xl"></div>
+        <div class="w-2/3 m-auto ">
+            <h2 class="styleTextHeader ">Simple no-tricks pricing</h2>
+            <p class="styleParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni animi itaque, impedit alias aperiam necessitatibus tenetur vel inventore quam corrupti omnis nesciunt perspiciatis vero accusamus!</p>
+        </div>
+        <div class="bigBoxPrice">
+            <div class="grow w-[400px]">
+                <h3 class="text-2xl font-semibold">Lifetime membership</h3>
+                <p class="styleParagraph ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id nesciunt consequatur magnam, rerum laudantium! Ipsum beatae nam eos reprehenderit.</p>
+                <div class="flex gap-2 items-center my-7 text-blue-800">
+                    <p>What's included</p>
+                    <div class="grow h-[1px] bg-slate-200"></div>
+                </div>
+                <div class="grid gap-y-5 gap-x-2 grid-cols-2">
+                    <div class="flex items-center gap-1 md:gap-3  ">
+                        <i class="fa-solid fa-check text-blue-600"></i>
+                        <p class="text-slate-700 dark:text-slate-300">Private formal access</p>
+                    </div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <i class="fa-solid fa-check text-blue-600"></i>
+                        <p class="text-slate-700 dark:text-slate-300">Member Reasourse</p>
+                    </div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <i class="fa-solid fa-check text-blue-600"></i>
+                        <p class="text-slate-700 dark:text-slate-300">Officail member t-shirt</p>
+                    </div>
+                    <div class="flex items-center gap-1 md:gap-3 ">
+                        <i class="fa-solid fa-check text-blue-600"></i>
+                        <p class="text-slate-700 dark:text-slate-300">Private formal access</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxPrice">
+                <h3 class="text-md font-semibold">Pay once, own it forever</h3>
+                <p class="mb-3"><span class="text-4xl font-bold">349</span> USD</p>
+                <button class="stylePremirayBtn transitionTime w-[250px]">Get access</button>
+                <p class="text-center text-sm w-[80%]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[url('./images/th.jpeg')] p-10 text-white">
+        <h2 class="styleTextHeader">Work with Us</h2>
+        <p class="max-w-[700px] my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos officiis aut minima dolor doloremque illum voluptas sint modi sapiente?</p>
+        <div class="flex items-center gap-5 mb-14 flex-wrap">
+            <a href="#" class="text-sm">Open roles <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="text-sm">Intership programs <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="text-sm">Our values <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="text-sm">Meet our leadship <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-3 ">
+            <div>
+                <p class="styleTextFooter">12</p>
+                <p>Officail worldwide</p>
+            </div>
+            <div>
+                <p class="styleTextFooter">300+</p>
+                <p>Full-time colleagues</p>
+            </div>
+            <div>
+                <p class="styleTextFooter">40</p>
+                <p>Hours per week</p>
+            </div>
+            <div>
+                <p class="styleTextFooter">unlimited</p>
+                <p>Paid time off</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        let btnDark=document.getElementById("btnDark");
+        let iconMode=document.querySelector("#cotMode i");
+        let root=document.documentElement
+        console.log(iconMode)
+        btnDark.onclick=()=>{
+            if(!root.classList.contains("dark")){
+                root.classList.add("dark")
+                iconMode.classList.replace("fa-moon","fa-sun");                
+            }else{
+                root.classList.remove("dark")
+                iconMode.classList.replace("fa-sun","fa-moon");
+            }
+        }
+    </script>
+</body>
+</html>
